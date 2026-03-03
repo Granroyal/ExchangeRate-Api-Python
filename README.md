@@ -16,9 +16,10 @@ Første gang programmet køres, gemmes din API key. Den gemmes lokalt i en `.env
 
  ## Klon Projektet fra GitHub
  git clone (https://github.com/Granroyal/ExchangeRate-Api-Python.git)
+ 
  cd valuta-cli
 
- macOS/Linux
+ macOS/Linux:
 
  Opret miljø:
  python3 -m venv .venv
