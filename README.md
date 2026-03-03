@@ -18,7 +18,7 @@ Første gang programmet køres, gemmes din API key. Den gemmes lokalt i en `.env
  git clone (https://github.com/Granroyal/ExchangeRate-Api-Python.git)
  cd valuta-cli
 
-* macOS/Linux
+ macOS/Linux
 
  Opret miljø:
  python3 -m venv .venv
@@ -26,8 +26,8 @@ Første gang programmet køres, gemmes din API key. Den gemmes lokalt i en `.env
  Aktivér miljø:
  source .venv/bin/activate
 
-* Windows (PowerShell)
-Opret miljø:
+ Windows (PowerShell)
+ Opret miljø:
  python -m venv .venv
 
  Aktivér miljø:
@@ -41,7 +41,7 @@ Opret miljø:
 - Api bliver gemt først gang
 - python3 valuta.py --key DIN_API_KEY
 - Dette opretter en .env fil i projektmappen.
-
+ ---
 ## Brug Programmet
 python3 valuta.py <amount> <FROM> <TO>
 
