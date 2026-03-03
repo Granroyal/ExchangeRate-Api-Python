@@ -38,22 +38,20 @@ Opret miljø:
  Installér dependencies:
  pip install -r requirements.txt
 
-```bash
- Api bliver gemt først gang
- python3 valuta.py --key DIN_API_KEY
- Dette opretter en .env fil i projektmappen.
+- Api bliver gemt først gang
+- python3 valuta.py --key DIN_API_KEY
+- Dette opretter en .env fil i projektmappen.
 
- ## Brug Programmet
- python3 valuta.py <amount> <FROM> <TO>
+## Brug Programmet
+python3 valuta.py <amount> <FROM> <TO>
 
 Eksempler:
 
-```bash
- python3 valuta.py 100 EUR DKK
- python3 valuta.py 600 euro dkk
- python3 valuta.py 1234,5 USD eur
+- python3 valuta.py 100 EUR DKK
+- python3 valuta.py 600 euro dkk
+- python3 valuta.py 1234,5 USD eur
 
- Programmet accepterer både store og små bogstaver.
+Programmet accepterer både store og små bogstaver.
 
 ## Deaktivér virtual environment
 deactivate
