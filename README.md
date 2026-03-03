@@ -38,6 +38,7 @@ Opret miljø:
  Installér dependencies:
  pip install -r requirements.txt
 
+```bash
  Api bliver gemt først gang
  python3 valuta.py --key DIN_API_KEY
  Dette opretter en .env fil i projektmappen.
@@ -46,6 +47,8 @@ Opret miljø:
  python3 valuta.py <amount> <FROM> <TO>
 
 Eksempler:
+
+```bash
  python3 valuta.py 100 EUR DKK
  python3 valuta.py 600 euro dkk
  python3 valuta.py 1234,5 USD eur
